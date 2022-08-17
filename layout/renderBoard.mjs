@@ -1,4 +1,4 @@
-import { handleNumberClick } from "../functions/handleNumberClick.mjs";
+import { handleNumberClick } from "../functions/functions.mjs";
 
 export function renderBoard(state) {
   const divGame = document.querySelector("#megasena-board");

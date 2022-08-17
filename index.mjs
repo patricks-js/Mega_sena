@@ -1,8 +1,9 @@
 // Layout
-import { createBoard } from "./layout/createBoard.mjs";
+import { render, createBoard } from "./layout/layout.mjs";
 
 // Controllers
-import { render } from "./layout/render.mjs";
+
+import {} from "./controllers/controllers.mjs";
 
 const state = {
   board: [],

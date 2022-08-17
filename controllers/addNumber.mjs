@@ -1,4 +1,4 @@
-import { numberInGame } from "./numberInGame.mjs";
+import { numberInGame } from "./controllers.mjs";
 
 export function addNumber(state, numberToAdd) {
   const numberBetweenOneAndSixty = numberToAdd >= 1 && numberToAdd <= 60;

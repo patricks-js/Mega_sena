@@ -1,6 +1,8 @@
-import { numberInGame } from "../controllers/numberInGame.mjs";
-import { removeNumberFromGame } from "../controllers/removeNumberFromGame.mjs";
-import { addNumber } from "../controllers/addNumber.mjs";
+import {
+  addNumber,
+  numberInGame,
+  removeNumberFromGame,
+} from "../controllers/controllers.mjs";
 
 export function handleNumberClick(state, e) {
   const value = Number(e.currentTarget.innerHTML);

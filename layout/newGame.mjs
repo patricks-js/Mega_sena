@@ -1,5 +1,5 @@
-import { resetGame } from "../controllers/resetGame.mjs";
-import { render } from "./render.mjs";
+import { resetGame } from "../controllers/controllers.mjs";
+import { render } from "./layout.mjs";
 
 export function newGame(state) {
   resetGame(state);
