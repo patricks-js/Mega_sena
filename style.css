@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font: 400 1.6rem sans-serif;
+  background-color: #f1f1f1;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  color: #333;
+  line-height: 150%;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
