@@ -1,3 +1,5 @@
+import { handleNumberClick } from "../functions/handleNumberClick.mjs";
+
 export function renderBoard(state) {
   const divGame = document.querySelector("#megasena-board");
   divGame.innerHTML = "";
@@ -8,6 +10,7 @@ export function renderBoard(state) {
     let currentNumber = state.board[i];
     const liNumber = document.createElement("li");
     liNumber.innerHTML = currentNumber;
+    liNumber.addEventListener("click", (e) => handleNumberClick(state, e));
     ulNumbers.appendChild(liNumber);
   }
 
